@@ -1,0 +1,76 @@
+/*The following CSS properties:
+background, color, font-family, font-size,
+height, margin, padding, text-align*>
+
+/*styling each container on web page*/
+
+header {
+  background-color: black;
+  height: 150px;
+  margin: 0;
+}
+
+header h2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.brand {
+  font-style: italic;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 55px;
+  color: white;
+  padding: 
+}
+
+main {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid black;
+  margin: 25px 50px 25px 50px;
+  padding: 0 25%;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+li {
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  height: 50px;
+}
+
+footer p{
+  color: white;
+  padding: 15px;
+
+}
+
+/*styled links*/
+
+a:link {
+  color: #FF0000;
+
+}
+a:visited {
+  color: #00FF00;
+}
+
+a:hover {
+  color: #FF00FF;
+}
+
+a:active {
+  color: #0000FF;
+}
