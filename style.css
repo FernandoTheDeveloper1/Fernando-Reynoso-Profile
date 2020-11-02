@@ -3,12 +3,22 @@ background, color, font-family, font-size,
 height, margin, padding, text-align*>
 
 /*styling each container on web page*/
+@media all and (min-width:600px){
+  section{
+    padding:0 10%;
+  }
+  .group{
+    flex-direction: row;
+  }
 
-header {
-  background-color: black;
-  height: 150px;
-  margin: 0;
-}
+  header {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 30px;
+   background-color: black;
+   height: 150px;
+   margin: 0;
+ }
 
 header h2{
   color: white;
@@ -73,7 +83,8 @@ a:active {
 
 .group {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin-bottom: 100px
 }
 
 .item {
