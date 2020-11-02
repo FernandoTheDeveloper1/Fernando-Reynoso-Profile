@@ -10,6 +10,7 @@ height, margin, padding, text-align*>
   .group{
     flex-direction: row;
   }
+}
 
   header {
    display: flex;
@@ -21,7 +22,6 @@ height, margin, padding, text-align*>
 header h1{
   color: white;
   font-size: 30px;
-  text-align: center;
 }
 
 .brand {
