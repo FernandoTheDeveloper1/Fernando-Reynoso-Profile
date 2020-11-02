@@ -13,11 +13,9 @@ height, margin, padding, text-align*>
 
   header {
    display: flex;
-   justify-content: space-between;
    padding: 0 30px;
    background-color: black;
    height: 150px;
-   margin: 0;
  }
 
 header h2{
