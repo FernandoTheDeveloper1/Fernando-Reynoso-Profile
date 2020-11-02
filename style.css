@@ -16,6 +16,7 @@ height, margin, padding, text-align*>
    padding: 0 30px;
    background-color: black;
    height: 150px;
+   text-align: center;
  }
 
 header h1{
