@@ -3,15 +3,6 @@ background, color, font-family, font-size,
 height, margin, padding, text-align*>
 
 /*styling each container on web page*/
-@media all and (min-width:600px){
-  section{
-    padding:0 10%;
-  }
-  .group{
-    flex-direction: row;
-  }
-}
-
 .logo{
   text-align: center;
 }
@@ -83,15 +74,4 @@ a:hover {
 }
 a:active {
   color: #0000FF;
-}
-
-.group {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 100px
-}
-
-.item {
-  flex: 1;
-  margin: 10px;
 }
