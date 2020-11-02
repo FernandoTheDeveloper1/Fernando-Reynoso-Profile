@@ -11,6 +11,11 @@ height, margin, padding, text-align*>
     flex-direction: row;
   }
 }
+
+.logo{
+  text-align: center;
+}
+
   header {
    display: flex;
    padding: 0 30px;
