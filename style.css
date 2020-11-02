@@ -21,7 +21,7 @@ header h2{
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 55px;
-  color: white; 
+  color: white;
 }
 
 main {
@@ -60,16 +60,23 @@ footer p{
 
 a:link {
   color: #FF0000;
-
 }
 a:visited {
   color: #00FF00;
 }
-
 a:hover {
   color: #FF00FF;
 }
-
 a:active {
   color: #0000FF;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
 }
