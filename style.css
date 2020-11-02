@@ -3,7 +3,14 @@ background, color, font-family, font-size,
 height, margin, padding, text-align*>
 
 /*styling each container on web page*/
-
+@media all and (min-width:600px){
+  section{
+    padding:0 10%;
+  }
+  .group{
+    flex-direction: row;
+  }
+}
   header {
    display: flex;
    padding: 0 30px;
