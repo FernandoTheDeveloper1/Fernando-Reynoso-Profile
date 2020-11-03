@@ -3,69 +3,41 @@ background, color, font-family, font-size,
 height, margin, padding, text-align*>
 
 /*styling each container on web page*/
-@media all and(min-width: 800px) {
-  section, h1 {
-    padding: 0, 10%;
-    }
-  .group{
-    flex-direction: row;
+
+header {
+    background-color: black;
+    text-align: center;
   }
-}
-
-.logo{
-  text-align: center;
-}
-
-  header {
-   display: flex;
-   padding: 0 30px;
-   background-color: black;
-   height: 150px;
-   text-align: center;
- }
 
 header h1{
   color: white;
   font-size: 30px;
-  text-align: center;
+  margin: 0;
 }
 
-.brand {
-  font-style: italic;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 55px;
-  color: white;
-}
 
 main {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  border: 5px solid black;
-  margin: 25px 50px 25px 50px;
   padding: 0 25%;
 }
 
-ul {
-  list-style-position: inside;
+.center > ul{
+  display: inline-block;
 }
 
-ol {
-  list-style-position: inside;
-}
-
-li {
-  text-align: left;
+.center > ol{
+  display: inline-block;
 }
 
 footer {
   text-align: center;
   background-color: black;
-  height: 70px;
 }
 
 footer p{
   color: white;
+  padding: 100px;
 }
 
 /*styled links*/
@@ -81,15 +53,4 @@ a:hover {
 }
 a:active {
   color: #0000FF;
-}
-
-.group{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 100px;
-}
-
-.item{
-  flex: 1;
-  margin: 10px;
 }
