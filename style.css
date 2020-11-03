@@ -22,6 +22,12 @@ main {
   padding: 0 25%;
 }
 
+/*images will match main container width they are placed
+within.*/
+main img {
+  width: 100%;
+}
+
 .center > ul{
   display: inline-block;
 }
